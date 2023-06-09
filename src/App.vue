@@ -2,10 +2,13 @@
   <div>
     {{ store.count }}
     <hello-world></hello-world>
+    <hr>
+    <more-store/>
   </div>
 </template>
 <script setup lang="ts">
-import helloWorld from './components/HelloWorld.vue'
+import helloWorld from './components/HelloWorld.vue';
+import moreStore from './components/MoreStore.vue'
 import { useCountStore } from "./store/index.ts";
 
 

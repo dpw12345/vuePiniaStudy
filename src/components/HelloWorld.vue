@@ -8,7 +8,6 @@
 </template>
 
 <script setup lang='ts'>
-import { ref, reactive } from 'vue' 
 import { useHelloStore } from '../store/helloWorld'
 import { storeToRefs } from 'pinia';
 const helloStore = useHelloStore()
